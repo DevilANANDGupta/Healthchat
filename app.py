@@ -8,7 +8,6 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 import os
-
 from keras.models import load_model
 model = load_model('model.h5')
 import json
